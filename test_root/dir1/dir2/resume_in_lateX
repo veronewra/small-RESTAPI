@@ -1,0 +1,150 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.40in,top=0.5in,right=0.75in,bottom=0.5in]{geometry} % Document margins
+\usepackage{fontawesome}
+\usepackage{times}
+\usepackage{enumitem}
+\usepackage[none]{hyphenat}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+ 
+
+ {\huge\bfseries \hspace{63mm} Veronika Polushina \vspace{-18mm} \par}
+   
+\address{
+\faEnvelope{ vero.newra@gmail.com } \vspace{-30mm} \hspace{2mm}
+\faGithub{ @veronewra }}
+% \address{\faMapMarker{ Gaithersburg, MD} \faPhone{ (240)-449-5421}} 
+
+\begin{document}
+
+
+{\centerline {\em \textbf { } }}
+
+\vspace{-8mm}
+\begin{rSection}{Education}
+
+{\bf B.S. Computer Science, Minor in Meteorology} \hfill {\em August 2018 - May 2022} 
+\\{ \textit { University of Maryland, College Park }} 
+\end{rSection}
+
+%maybe add relevant coursework?
+
+\begin{rSection}{Work Experience}
+
+{\bf Brammer Technology LLC, } \textit{Software Developer} \hfill {\textit{Jan 2022 - June 2022}}
+\begin{itemize}[leftmargin=2em, rightmargin=12em,label=\raisebox{0.25ex}{\tiny$\bullet$}]
+    \vspace{-1mm}
+   \item Developed a program to be used by researchers that processes large amounts of multidimensional data. 
+   \item Analyzed historical data as well as projections to help wind farm investors make better informed decisions.
+   
+\end{itemize} 
+
+
+{\bf Earth Networks, } \textit{Software Developer} \hfill {\em May 2021- Feb 2022}
+\begin{itemize}[leftmargin=2em, rightmargin=12em,label=\raisebox{0.25ex}{\tiny$\bullet$}]\vspace{-1mm}
+
+\item Implemented and trained a machine learning model in Python for classifying types of lightning based on waveform data with over 90\% accuracy. 
+\item Unblocked a code migration that was essential for a product rollout.
+\item Developed a website that provides access to open source lightning climatology data for third-party projects.
+\end{itemize}
+
+{\bf Fidelity Oligos, } \textit{Contractor} \hfill {\em Jan 2019 - March 2020}
+\begin{itemize}[leftmargin=2em, rightmargin=12em,label=\raisebox{0.25ex}{\tiny$\bullet$}]\vspace{-1mm}
+
+\item  Gave basic security support for web portal, including setting up SSL certificates.
+\item  Provided consulting to improve web portal UX and functionality.
+\end{itemize}
+\end{rSection}
+
+\begin{rSection}{Projects}
+
+{\bf Gr8 Vision |} \textit{C++, Python} \hfill {\textit{April 2022}}
+\begin{itemize}[leftmargin=2em, rightmargin=12em,label=\raisebox{0.25ex}{\tiny$\bullet$}]
+    \vspace{-1mm}
+   \item Programmed a an 8 bit computer to do computer vision controlled by an ultrasonic sensor.
+   \item Won Bitcamps Best Hardware Hack award.
+\end{itemize} 
+
+{\bf Binutils but Better |} \textit{Rust} \hfill {\textit{Dec 2021}}
+\begin{itemize}[leftmargin=2em, rightmargin=12em,label=\raisebox{0.25ex}{\tiny$\bullet$}]
+    \vspace{-1mm}
+   \item Rewrote a portion of binutils programs in Rust to decrease code complexity, increase efficiency, and provide easy integration for utf8 characters. 
+\end{itemize} 
+
+{\bf Numerical Weather Prediction |} \textit{Unix, Python, FORTRAN} \hfill {\textit{Aug 2019 - Oct 2021}}
+\begin{itemize}[leftmargin=2em, rightmargin=12em,label=\raisebox{0.25ex}{\tiny$\bullet$}]
+    \vspace{-1mm}
+   \item Lead development of the weather forecasting model and associated club. 
+   \item Ported weather forecasting program to newer WRF version and fixed outages.
+
+   
+\end{itemize} 
+
+% {\bf SmallC Interpreter |}
+% \textit{OCaml} \hfill {\textit{Nov 2020}}
+% \begin{itemize}[leftmargin = 2em, rightmargin = 12em, label=\raisebox{.25ex}{\tiny$\bullet$}]
+% \item Wrote a recursive descent interpreter for a Turing-complete subset of C.
+% \item Used context free grammars, lookahead techniques, and error analysis to tokenize, parse, and evaluate complete programs.
+% \end{itemize}
+
+% {\bf Simple Shell |} \textit{C, UNIX} \hfill {\textit{May 2020}}
+% \begin{itemize}[leftmargin =2em,
+% rightmargin=12em, label=\raisebox{.25ex}{\tiny$\bullet$}]
+%     \item Compiled a subset of the UNIX shell, including subshells, piping, and standard execution features.
+%     \item Utilized a fork-join model and C-style piping to communicate between subshells and parent processes.
+% \end{itemize}
+
+{\bf Vector Calc Sandbox |} \textit{MATLAB, Autodesk Inventor} \hfill {\textit{April 2019}}
+\begin{itemize}[leftmargin=2em, rightmargin=12em,label=\raisebox{0.25ex}{\tiny$\bullet$}]
+\item Co-authored a virtual reality tool that helps visualize multi-variable calculus.
+\item Included features such as walking through and manipulating a vector field, shooting electrons at protons, and highlighting the directional derivative on a 3D surface.     
+\item Won Bitcamp's Most Ambitious and Best Data Visualization awards
+
+\end{itemize}
+
+
+
+\end{rSection}
+
+
+\begin{rSection}{Technical Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages: \ & Rust, Python, Java, C, C++, SQL, OCaml, MATLAB, Ruby \\ 
+Software \& Tools: & {\textbf{}}UNIX, Github, Azure, AWS, Jira, Bitbucket, Jupyter Notebook, HTML, CSS, WRF,  HDF5
+
+\end{tabular}
+\end{rSection}
+
+% \begin{rSection}{Relevant Coursework}
+% Algorithms for Data science, Bioinformatics, Remote Sensing, Climate System Modeling, Advanced Data Structures
+% \end{rSection}
+
+
+
+
+
+% {\bf Calleva,} \textit{ Head Counselor, Trail Staff, and Kitchen Staff} \hfill {\em October 2017 - November 2018}
+% \begin{itemize}[leftmargin=2em, rightmargin=12em,label=\raisebox{0.25ex}{\tiny$\bullet$}]
+
+% \item Collaborated with other counselors to meal prep, provide transportation, and generally care for the campers. 
+
+% \item Was responsible for large groups during frequently risky or dangerous activities; was expected to be responsible for any injuries or problems to occur on-site. 
+% \end{itemize}
+%{\bf Potomac Horse Center }\textit{Staff, Camp Counselor,} \hfill {\em 2013-2016 }
+%\begin{itemize}[leftmargin=2em, %rightmargin=12em,label=\raisebox{0.25ex}{\tiny$\bullet$}]\vspace{-1mm} %\item Performed duties including helping riders, customer service, and %leading activities.\vspace{-1mm}  
+%\item Was responsible for tracking schedules and helping with general %chores of the farm. \vspace{-1mm}
+%\end{itemize}
+
+
+%\end{rSection}
+%\begin{rSection}{Languages}
+%\begin{itemize}[leftmargin=2em, %rightmargin=12em,label=\raisebox{0.25ex}{\tiny$\bullet$}]
+ %   \item Fluent in English and Russian. \vspace{-2mm}
+ %   \item Experience with French and ASL.
+%\end{itemize}
+%\end{rSection}
+
+\end{document}
