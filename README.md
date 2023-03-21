@@ -1,4 +1,4 @@
-cd into the weavegrid folder, and run `./run_app.sh "directory/of/your/choice"` to start the server.
+cd into the main folder, and run `./run_app.sh "directory/of/your/choice"` to start the server.
 Running `./user_interface.py` lets you explore the endpoints in an interactive environment. (Otherwise you can use the curl command) The commands available in the user interface are:
 
   * `--help`: lists the information about the commands
